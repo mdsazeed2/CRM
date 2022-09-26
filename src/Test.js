@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/Test.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import {AiOutlineCheckCircle} from "react-icons/ai"
 export default function Mainlist() {
   return (
     <>
@@ -20,7 +21,7 @@ export default function Mainlist() {
         </div>
         <div className="Innerbox">
           <div className="list_row">
-            <label className="list_whitecircle"></label>
+            <label className="list_whitecircle"><AiOutlineCheckCircle/></label>
             <label>John</label>
             <label>Smith</label>
             <label>Confirmed</label>

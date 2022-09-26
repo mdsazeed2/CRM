@@ -32,8 +32,6 @@ export default function Mainlist() {
             <label>10</label>
             <label>Larry wilson</label>
             <div className="icon"><AiOutlineArrowRight/></div>
-            
-
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -44,6 +42,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -54,6 +53,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -64,6 +64,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -74,6 +75,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -84,6 +86,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -94,6 +97,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row7">
             <div className="list_whitecircle7"></div>
@@ -104,6 +108,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -114,6 +119,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
           <div className="list_row">
             <div className="list_whitecircle"></div>
@@ -124,6 +130,7 @@ export default function Mainlist() {
             <label>larrywilson@nomail.com</label>
             <label>10</label>
             <label>Larry wilson</label>
+            <AiOutlineArrowRight/>
           </div>
         </div>
         </div>

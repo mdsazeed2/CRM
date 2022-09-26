@@ -1,7 +1,15 @@
 import "./style/Signup.css";
 import Logo from "./logo.jpg";
+import { useState } from "react";
 
 export default function Signup() {
+
+  const[FirstName,setFirstname]=useState("");
+  const[LastName,setLastname]=useState("");
+  const[Email,setEmail]=useState("");
+  const[Password,setPassword]=useState("");
+  const[Repassword,setRepassword]=useState("");
+
   return (
     <>
       <div className="Signup_outer">
@@ -17,17 +25,17 @@ export default function Signup() {
             <label>Please signup your account </label>
           </div>
           <div className="Signup_outer_inner_row4">
-            <input type="text" placeholder="FirstName" />
-            <input type="text" placeholder="LastName" />
+            <input type="text" placeholder="FirstName" onChange={(e)=>{setFirstname(e.target.value)}} />
+            <input type="text" placeholder="LastName" onChange={(e)=>{setLastname(e.target.value)}}/>
           </div>
           <div className="Signup_outer_inner_row5">
-            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}}/>
           </div>
           <div className="Signup_outer_inner_row6">
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" onChange={(e)=>{setPassword(e.target.value)}} />
           </div>
           <div className="Signup_outer_inner_row7">
-            <input type="password" placeholder="Re-Password" />
+            <input type="password" placeholder="Re-Password" onChange={(e)=>{setRepassword(e.target.value)}}/>
           </div>
           <div className="Signup_outer_inner_row81">
             <div className="Signup_outer_inner_row8">

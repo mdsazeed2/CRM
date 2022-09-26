@@ -1,18 +1,23 @@
 import "./style/Login.css";
 import logo from "./logo.jpg";
-import { Navigate, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 export default function Login() {
- const Navigate=useNavigate();
- function Signup(){
-   Navigate("/frontend/src/Signup.js")
- }
+  
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+  function Signup() {
+    navigate("/Signup");
+  }
   return (
     <>
       <div className="Login_outer">
         <div className="outer_row1">
           <div className="outer_row11">
             <div className="outer_row11_inner1">
-              <img src={logo}></img>
+              <img src={logo}/>
               <label>
                 <h3>Logo</h3>
               </label>
@@ -22,10 +27,22 @@ export default function Login() {
               <label>Please sign-in to your account</label>
             </div>
             <div className="outer_row11_inner3">
-              <input type="text" placeholder="Email" />
+              <input
+                type="text"
+                placeholder="Email"
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              />
             </div>
             <div className="outer_row11_inner4">
-              <input type="password" placeholder="Password" />
+              <input
+                type="Password"
+                placeholder="Password"
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
+              />
             </div>
             <div className="outer_row11_inner5">
               <input type="checkbox" />
@@ -41,7 +58,9 @@ export default function Login() {
         </div>
         <div className="outer_row2">
           <label>New member?</label>
-          <label className="Sign_Up" onClick={ Signup }>Sign Up</label>
+          <label className="Sign_Up" onClick={Signup}>
+            Sign Up
+          </label>
         </div>
       </div>
     </>

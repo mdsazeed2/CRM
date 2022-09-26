@@ -7,8 +7,8 @@ export default function Navigation() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/frontend/src/Signup.js" element={<Signup />}></Route>
+          <Route path="/" element={<Login/>}></Route>
+          <Route path="/Signup" element={<Signup/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
