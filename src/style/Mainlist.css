@@ -12,14 +12,15 @@ body {
 }
 
 .row1 ul {
+  width: 83%;
   display: flex;
   flex-direction: row;
   padding: 5px ;
   justify-content: space-between;
   align-items: center;
   justify-items: space-between;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 40px;
+  padding-right: 30px;
 }
 
 .row1 ul li {
@@ -33,7 +34,6 @@ body {
   max-width: 20px;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
   justify-content: center;
   background-color: white;
   min-height: 20px;
@@ -41,6 +41,7 @@ body {
   border-radius: 30px;
   color: #c3cad9;
   font-size: 1.2rem;
+  border: 1px solid lightgray;
   
 }
 .Innerbox {
@@ -54,57 +55,67 @@ body {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-
   padding: 10px;
   border-radius: 10px;
 }
-
+.list_row_top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #f3f3f4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
 .list_row {
   display: flex;
   flex-direction: row;
-  padding: 10px 5%;
   align-items: center;
-  background-color: #f7f8fa;
   justify-content: space-between;
-  margin-bottom: 10px;
-  border-radius: 10px;
+  width: 95%;
+  padding-left: 20px;
 }
-
-.list_row button {
-  background-color: white;
-  border-color: #c3cad9;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin-left: 10px;
+.list_row7_top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #9155FD;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
 }
 .list_row7 {
   display: flex;
   flex-direction: row;
-  padding: 10px 5%;
   align-items: center;
-  background-color: #9155FD;
   justify-content: space-between;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  padding-left: 2px;
+  width: 95%;
+  padding-left: 20px;
 }
 .list_whitecircle7 {
   min-width: 20px;
   max-width: 20px;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
   justify-content: center;
   background-color: rgb(215, 105, 21);
   min-height: 20px;
   max-height: 20px;
   border-radius: 30px;
-  color: rgb(215, 105, 21);
+  color: white;
   font-size: 1.2rem;
-  margin-right: 10px;
-  margin-left: 20px;
 }
-.icon {
-  padding-left: 20px;
+.Button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.831);
+  border: 1px solid lightgray;
 }

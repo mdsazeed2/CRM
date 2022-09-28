@@ -1,0 +1,44 @@
+.salesdashboard{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.salesdashboard_single{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.salesdashboard_single_title{
+    display: flex;
+    background-color: aqua;
+    border-radius: 5px;
+    flex-direction: row;
+}
+.salesdashboard_single_item{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.salesdashboard_single_item_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+.salesdashboard_single_add {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+}
