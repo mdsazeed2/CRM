@@ -1,5 +1,5 @@
 import React from "react";
-import { BiSearch, BiWorld } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
 import {
 BsFillBellFill,
 } from "react-icons/bs";
