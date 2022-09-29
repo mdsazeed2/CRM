@@ -6,7 +6,7 @@ body {
   height: 100vh;
   width: 100%;
 }
-.outer_row1 {
+.Login_outer_row1 {
   background-color: rgba(245, 248, 249, 0.769);
   height: 65vh;
   width: 100%;
@@ -15,63 +15,63 @@ body {
   justify-content: center;
   align-items: center;
 }
-.outer_row2 {
+.Login_outer_row2 {
   background-color: rgb(212, 189, 189);
   height: 40vh;
   width: 100%;
 }
-.outer_row11 {
+.Login_outer_row11 {
   background-color: rgb(255, 255, 255);
   height: 60vh;
   width: 30%;
 }
-.outer_row11_inner1 {
+.Login_outer_row11_inner1 {
   padding-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.outer_row11_inner1 img {
+.Login_outer_row11_inner1 img {
   height: 30px;
 }
-.outer_row11_inner2 {
+.Login_outer_row11_inner2 {
   margin-top: 10px;
   margin-left: 20px;
 }
-.outer_row11_inner2 label {
+.Login_outer_row11_inner2 label {
   font-family: "Times New Roman", Times, serif;
   font-size: small;
   padding-top: -10px;
 }
-.outer_row11_inner3,
-.outer_row11_inner4,
-.outer_row11_inner5,
-.outer_row11_inner6 {
+.Login_outer_row11_inner3,
+.Login_outer_row11_inner4,
+.Login_outer_row11_inner5,
+.Login_outer_row11_inner6 {
   margin-left: 20px;
   margin-top: 20px;
 }
-.outer_row11_inner3 input,
-.outer_row11_inner4 input {
+.Login_outer_row11_inner3 input,
+.Login_outer_row11_inner4 input {
   border: 1px solid lightgray;
   border-radius: 8px;
   width: 85%;
   padding: 9px;
   outline: none;
 }
-.outer_row11_inner5 {
+.Login_outer_row11_inner5 {
   display: flex;
   flex-direction: row;
   font-size: small;
 }
-.outer_row11_inner5 input {
+.Login_outer_row11_inner5 input {
   margin-bottom: 20px;
 }
-.outer_row11_inner51 {
+.Login_outer_row11_inner51 {
   margin-left: 40%;
   color: blueviolet;
 }
-.outer_row11_inner6 button {
+.Login_outer_row11_inner6 button {
   width: 90%;
   padding: 12px;
   outline: none;
@@ -80,12 +80,12 @@ body {
   background-color: blueviolet;
   color: azure;
 }
-.outer_row2 {
+.Login_outer_row2 {
   display: flex;
   justify-content: center;
   background-color: rgba(245, 248, 249, 0.769);
 }
-.Sign_Up {
+.Login_Sign_Up_text {
   color: blueviolet;
   padding-left: 10px;
 }

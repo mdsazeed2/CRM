@@ -54,21 +54,17 @@ export default function Salesdashboard() {
               <label>Task name</label>
               <BsThreeDots />
             </div>
-            {show ? (
-              <div className="salesdashboard_single_item_details">
-                <div>
-                  <label>Campaign</label>
-                </div>
-                <div>
-                  <label>Task</label>
-                </div>
-                <div>
-                  <label>Lead</label>
-                </div>
+            <div className="salesdashboard_single_item_details">
+              <div>
+                <label>Campaign</label>
               </div>
-            ) : (
-              <></>
-            )}
+              <div>
+                <label>Task</label>
+              </div>
+              <div>
+                <label>Lead</label>
+              </div>
+            </div>
           </div>
           <div className="salesdashboard_single_add">
             <label>+</label>
@@ -86,21 +82,17 @@ export default function Salesdashboard() {
               <label>Task name</label>
               <BsThreeDots />
             </div>
-            {show ? (
-              <div className="salesdashboard_single_item_details">
-                <div>
-                  <label>Campaign</label>
-                </div>
-                <div>
-                  <label>Task</label>
-                </div>
-                <div>
-                  <label>Lead</label>
-                </div>
+            <div className="salesdashboard_single_item_details">
+              <div>
+                <label>Campaign</label>
               </div>
-            ) : (
-              <></>
-            )}
+              <div>
+                <label>Task</label>
+              </div>
+              <div>
+                <label>Lead</label>
+              </div>
+            </div>
           </div>
           <div className="salesdashboard_single_add">
             <label>+</label>
